@@ -31,11 +31,11 @@ A GreenFound usa IoT para monitorar e controlar sistemas de energia solar e ilum
 
 
 ## **Integrantes:**
-RM98163 - Júlia Martins Santana Figueiredo - 2TDSA
-RM550562 - Larissa Akemi Iwamoto - 2TDSA
-RM550858 - Murilo Ribeiro Valério da Silva - 2TDSA
-RM94679 - Vinicios Becker Prediger - 2TDSS
-RM98570 - Gabriel Souza de Queiroz - 2TDSS
+RM98163 - Júlia Martins Santana Figueiredo - 2TDSA <br>
+RM550562 - Larissa Akemi Iwamoto - 2TDSA <br>
+RM550858 - Murilo Ribeiro Valério da Silva - 2TDSA <br>
+RM94679 - Vinicios Becker Prediger - 2TDSS <br>
+RM98570 - Gabriel Souza de Queiroz - 2TDSS <br>
 
 ## 💚Expressões de Gratidão
 Gostaríamos de expressar nossa sincera gratidão aos professores que contribuíram para o sucesso deste projeto. A dedicação de todos foi essencial para nosso aprendizado e crescimento. Agradecemos pelo apoio, orientação e esforço compartilhado, que foram fundamentais para superarmos desafios e alcançarmos nossos objetivos.
