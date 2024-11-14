@@ -13,18 +13,17 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 
 ## **Explicação da solução IoT**
-O sistema IoT do GreenFound ajuda a monitorar e otimizar o uso de energia renovável e o controle da iluminação pública. Ele usa sensores e atuadores para coletar dados e ajustar dispositivos, integrando tudo em um dashboard para facilitar o monitoramento e o controle remoto.
+O sistema IoT da GreenFound tem um ESP32 que utiliza um sensor PIR (sensor de movimento) e publica informações sobre a detecção de movimento em um tópico MQTT. Isso é útil, pois permite monitorar a presença de pessoas em um ambiente, o que é relevante para sistemas de iluminação pública eficiente e outras soluções de energia limpa.
 
-- Monitoramento de Eficiência de Energia (Temperatura e Umidade): O sensor DHT22 mede a temperatura e umidade, valores que são publicados no tópico MQTT solar/temperature. Esses dados podem ser visualizados no dashboard, permitindo que administradores monitorem as condições que afetam os painéis solares.
+- Monitoramento de Movimento: O sensor PIR detecta movimento em uma área monitorada e ativa uma saída (LED neste caso) quando o movimento é detectado. Em um contexto de iluminação pública sustentável, esse recurso é usado para acionar a iluminação apenas quando necessário, economizando energia e promovendo eficiência.
 
-- Controle de Iluminação Pública (LED): O LED simula o controle da iluminação pública. Com comandos MQTT pelo tópico lighting/control, o sistema pode ligar ou desligar a iluminação com base na disponibilidade de energia solar. Esse controle também pode ser visualizado e ajustado pelo dashboard.
+- Publicação de Dados em Servidor MQTT: O código conecta-se a um broker MQTT e publica uma mensagem a cada 15 segundos com o status de movimento. Esse sistema compartilha dados em tempo real com uma plataforma de gerenciamento, assim permitindo que a GreenFound monitore remotamente o uso e a necessidade de energia em diferentes locais.
 
-- Ajuste Automático dos Painéis Solares (Servo Motor): O servo ajusta a posição dos painéis solares para melhorar a captação de energia com base em um valor simulado de eficiência solar. A posição do servo é atualizada automaticamente e pode ser visualizada no dashboard para verificar o ângulo ideal ao longo do dia.
+- Conexão com Wi-Fi e MQTT: A conexão com Wi-Fi e a funcionalidade MQTT facilitam a integração do sistema a uma rede de sensores e dispositivos conectados. Isso permite que múltiplos sensores ou dispositivos sejam integrados para fornecer dados sobre consumo, uso de energia e presença em várias áreas.
 
-- Notificações e Indicadores de Eficiência: O código calcula uma eficiência solar simples com base na temperatura (quanto mais próxima de 25 °C, maior a eficiência), e publica esses dados no tópico solar/efficiency. O status do painel solar (ON ou OFF) também é enviado ao dashboard através do tópico solar/status.
+- Dashboard:  Os dados dos sensores são exibidos em um painel que mostra em tempo real o impacto das iniciativas da GreenFound, além de os dados de detecção de movimento e uso de iluminação serem cruzados com informações de consumo de energia para otimizar o uso de energia. E há um controle remoto dos dispositivos conectados, para assim ajustar o sistema conforme as necessidades e condições locais.
 
-A GreenFound usa IoT para monitorar e controlar sistemas de energia solar e iluminação pública. Com a integração ao dashboard, administradores e doadores podem ver o impacto das ações sustentáveis e participar de forma ativa na criação de um ambiente mais sustentável.
-
+Com isso, esse sistema é um ponto de partida para um projeto de cidade inteligente, no qual a GreenFound pode não apenas monitorar o uso de recursos, mas também ajustar a operação de forma a maximizar a eficiência energética.
 
 ## **Video da Apresentação:**
 (...).
