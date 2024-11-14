@@ -25,6 +25,8 @@ O sistema IoT da GreenFound tem um ESP32 que utiliza um sensor PIR (sensor de mo
 
 Com isso, esse sistema é um ponto de partida para um projeto de cidade inteligente, no qual a GreenFound pode não apenas monitorar o uso de recursos, mas também ajustar a operação de forma a maximizar a eficiência energética.
 
+Link do Wokwi: https://wokwi.com/projects/414481474335712257
+
 ## **Video da Apresentação:**
 (...).
 
