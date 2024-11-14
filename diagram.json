@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Júlia Figueiredo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 19.2, "left": 24.04, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 102, "left": -111.4, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 157.55,
+      "left": -67.2,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -92, "left": -170.58, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "r1:2", "esp:12", "green", [ "v0" ] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "led1:C", "esp:GND.1", "green", [ "v0" ] ],
+    [ "pir1:GND", "esp:GND.2", "black", [ "v9.6", "h297.34", "v38.4" ] ],
+    [ "pir1:OUT", "esp:35", "green", [ "v0" ] ],
+    [ "pir1:VCC", "esp:3V3", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
