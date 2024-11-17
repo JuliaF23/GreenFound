@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "author": "Júlia Figueiredo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -34.66, "left": -134.67, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -100.24,
+      "left": 40.86,
+      "attrs": { "temperature": "43.5", "humidity": "55.5" }
+    },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": -159.2,
+      "left": -362.58,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -80.4,
+      "left": -236.2,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 4.8,
+      "left": -221.35,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -262.4,
+      "left": 34.4,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:VIN", "red", [ "v-4.47", "h-73.03", "v-48.67", "h-124.67", "v179.33" ] ],
+    [ "esp:GND.1", "dht1:GND", "black", [ "h0" ] ],
+    [ "dht1:SDA", "esp:D15", "green", [ "v0" ] ],
+    [ "pir1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led1:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led1:A", "r1:1", "black", [ "v0" ] ],
+    [ "r1:2", "esp:D13", "green", [ "v66", "h62.33" ] ],
+    [ "pir1:VCC", "esp:VIN", "red", [ "v0" ] ],
+    [ "pir1:OUT", "esp:D14", "green", [ "v0" ] ],
+    [ "lcd1:GND", "esp:GND.2", "black", [ "h-220.8", "v336" ] ],
+    [ "esp:3V3", "lcd1:VCC", "red", [ "h42.97", "v-191.04", "h-115.2", "v-144.1" ] ],
+    [ "lcd1:SDA", "esp:D21", "green", [ "h-38.4", "v115.4", "h19.2", "v124.24" ] ],
+    [ "lcd1:SCL", "esp:D22", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
