@@ -27,7 +27,7 @@ O sistema IoT da GreenFound utiliza um ESP32 com sensores de temperatura, umidad
 
 Com isso, esse sistema não apenas ajuda a economizar energia e reduzir custos operacionais, mas também engaja a comunidade ao fornecer transparência e dados sobre o impacto das iniciativas.
 
-Link do Wokwi:  
+Link do Wokwi: https://wokwi.com/projects/414635178238867457
 
 
 ## **Video da Apresentação:**
