@@ -13,19 +13,22 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 
 ## **Explicação da solução IoT**
-O sistema IoT da GreenFound tem um ESP32 que utiliza um sensor PIR (sensor de movimento) e publica informações sobre a detecção de movimento em um tópico MQTT. Isso é útil, pois permite monitorar a presença de pessoas em um ambiente, o que é relevante para sistemas de iluminação pública eficiente e outras soluções de energia limpa.
+O sistema IoT da GreenFound utiliza um ESP32 com sensores de temperatura, umidade e movimento, integrados a uma plataforma MQTT. Esse sistema serve para monitorar o ambiente e otimizar soluções sustentáveis, como iluminação pública eficiente e gestão de energia renovável.
 
-- Monitoramento de Movimento: O sensor PIR detecta movimento em uma área monitorada e ativa uma saída (LED neste caso) quando o movimento é detectado. Em um contexto de iluminação pública sustentável, esse recurso é usado para acionar a iluminação apenas quando necessário, economizando energia e promovendo eficiência.
+- Monitoramento Ambiental: O sensor DHT22 coleta dados de temperatura e umidade, enviando essas informações para um tópico MQTT. Esses dados são essenciais para entender as condições climáticas locais, o que pode impactar o desempenho de sistemas de energia solar.
 
-- Publicação de Dados em Servidor MQTT: O código conecta-se a um broker MQTT e publica uma mensagem a cada 15 segundos com o status de movimento. Esse sistema compartilha dados em tempo real com uma plataforma de gerenciamento, assim permitindo que a GreenFound monitore remotamente o uso e a necessidade de energia em diferentes locais.
+- Detecção de Movimento: O sensor PIR detecta movimento em áreas monitoradas, ativando um LED quando há presença detectada. Em sistemas de iluminação pública eficiente, isso é usado para acionar luzes apenas quando necessário, reduzindo significativamente o consumo de energia.
 
-- Conexão com Wi-Fi e MQTT: A conexão com Wi-Fi e a funcionalidade MQTT facilitam a integração do sistema a uma rede de sensores e dispositivos conectados. Isso permite que múltiplos sensores ou dispositivos sejam integrados para fornecer dados sobre consumo, uso de energia e presença em várias áreas.
+- Publicação de Dados em Servidor MQTT: O código conecta-se a um broker MQTT, enviando os seguintes dados: Temperatura e umidade do ambiente para os tópicos /Thinkitive/temp e /Thinkitive/hum. Isso permite que a GreenFound monitore remotamente as condições ambientais e a atividade em locais públicos, utilizando essas informações para ajustar os sistemas conforme necessário.
 
-- Dashboard:  Os dados dos sensores são exibidos em um painel que mostra em tempo real o impacto das iniciativas da GreenFound, além de os dados de detecção de movimento e uso de iluminação serem cruzados com informações de consumo de energia para otimizar o uso de energia. E há um controle remoto dos dispositivos conectados, para assim ajustar o sistema conforme as necessidades e condições locais.
+- Conexão com Wi-Fi e MQTT: A integração com Wi-Fi e MQTT possibilita que o sistema funcione como parte de uma rede IoT mais ampla, permitindo a coleta e o compartilhamento de dados em tempo real. Isso é essencial para o monitoramento e controle remoto.
 
-Com isso, esse sistema é um ponto de partida para um projeto de cidade inteligente, no qual a GreenFound pode não apenas monitorar o uso de recursos, mas também ajustar a operação de forma a maximizar a eficiência energética.
+- Dashboard: Os dados coletados pelos sensores são exibidos em um painel, possibilitando: Visualização em tempo real das condições ambientais (temperatura, umidade), acompanhamento do impacto das iniciativas sustentáveis e controle remoto, assim permitindo que gestores ajustem o sistema para atender às necessidades da comunidade.
 
-Link do Wokwi: https://wokwi.com/projects/414481474335712257
+Com isso, esse sistema não apenas ajuda a economizar energia e reduzir custos operacionais, mas também engaja a comunidade ao fornecer transparência e dados sobre o impacto das iniciativas.
+
+Link do Wokwi:  
+
 
 ## **Video da Apresentação:**
 (...).
