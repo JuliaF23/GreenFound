@@ -1,6 +1,6 @@
 # 🍃GreenFund
 
-A **GreenFound** é uma iniciativa que conecta pessoas dispostas a contribuir com projetos sustentáveis, visando beneficiar tanto comunidades carentes quanto espaços públicos. A plataforma permite que indivíduos façam pequenas doações para financiar soluções de energia limpa, como a instalação de painéis solares em escolas, a modernização da iluminação pública com tecnologias eficientes e a implementação de sistemas de energia renovável em áreas com pouca infraestrutura.
+A **GreenFound** foi criada com o objetivo de incentivar a participação de cidadãos e empresas em iniciativas sustentáveis de energia renovável, promovendo a transformação de comunidades carentes e espaços públicos através de doações acessíveis. A plataforma oferece uma maneira simples e transparente para que qualquer pessoa possa contribuir para projetos que visam a instalação de sistemas de energia limpa, como painéis solares e iluminação pública eficiente, gerando um impacto positivo no meio ambiente e na qualidade de vida das pessoas. 
 
 Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas também nas comunidades mais vulneráveis, melhorando a qualidade de vida e promovendo um futuro mais sustentável. A cada doação, os usuários podem acompanhar o progresso dos projetos, visualizar os resultados gerados e acumular pontos que podem ser trocados por recompensas simbólicas.
 
