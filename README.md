@@ -31,7 +31,7 @@ Link do Wokwi: https://wokwi.com/projects/414635178238867457
 
 
 ## **Video da Apresentação:**
-(...).
+https://youtu.be/aXj28I7L_TY
 
 
 ## **Integrantes:**
