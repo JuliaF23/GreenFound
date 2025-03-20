@@ -35,4 +35,4 @@ https://youtu.be/aXj28I7L_TY
 
 
 ## 💚Expressões de Gratidão
-Gostaríamos de expressar nossa sincera gratidão aos professores que contribuíram para o sucesso deste projeto. A dedicação de todos foi essencial para nosso aprendizado e crescimento. Agradecemos pelo apoio, orientação e esforço compartilhado, que foram fundamentais para superarmos desafios e alcançarmos nossos objetivos.
+Gostaria de expressar sincera gratidão aos professores que contribuíram para o sucesso deste projeto. A dedicação de todos foi essencial para meu aprendizado e crescimento. Agradeço pelo apoio, orientação e esforço compartilhado, que foram fundamentais para superar desafios e alcançar objetivos.
