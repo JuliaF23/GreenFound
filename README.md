@@ -1,5 +1,48 @@
 # 🍃GreenFound
 
+**GreenFound** was created with the goal of encouraging the participation of citizens and companies in sustainable renewable energy initiatives, promoting the transformation of underserved communities and public spaces through accessible donations. The platform offers a simple and transparent way for anyone to contribute to projects aimed at installing clean energy systems, such as solar panels and efficient public lighting, generating a positive impact on the environment and people’s quality of life.
+
+Our mission is to generate a positive impact not only on the environment but also on vulnerable communities, improving quality of life and promoting a more sustainable future. With each donation, users can track the progress of projects, view the results achieved, and accumulate points that can be exchanged for symbolic rewards.
+
+### **Key Features:**
+
+- **Simple Donations:** Quick contributions to support renewable energy projects in underserved communities and public spaces.
+- **Goal Tracking:** View the progress and objectives of each project.
+- **Points and Rewards System:** Incentives such as digital certificates and updates on the impact generated.
+- **Sustainable Impact:** Each donation contributes to CO₂ reduction, energy savings, and social benefits in underprivileged areas and public spaces.
+
+## **IoT Solution Explanation**
+GreenFound’s IoT system uses an ESP32 with temperature, humidity, and motion sensors, integrated with an MQTT platform. This system is designed to monitor the environment and optimize sustainable solutions such as efficient public lighting and renewable energy management.
+
+- Environmental Monitoring: The DHT22 sensor collects temperature and humidity data and sends it to an MQTT topic. This information is crucial for understanding local weather conditions, which can affect the performance of solar energy systems.
+
+- Motion Detection: The PIR sensor detects movement in monitored areas and activates an LED when presence is detected. In efficient public lighting systems, this helps activate lights only when necessary, significantly reducing energy consumption.
+
+- Data Publishing via MQTT Server: The code connects to an MQTT broker, sending the following data: temperature and humidity to the topics /Thinkitive/temp and /Thinkitive/hum. This allows GreenFound to remotely monitor environmental conditions and activity in public areas and use that information to adjust systems accordingly.
+
+- Wi-Fi and MQTT Connectivity: Integration with Wi-Fi and MQTT enables the system to operate as part of a broader IoT network, allowing real-time data collection and sharing. This is essential for remote monitoring and control.
+
+- Dashboard: The data collected by the sensors is displayed on a dashboard, enabling: Real-time visualization of environmental conditions (temperature and humidity) Monitoring the impact of sustainable initiatives Remote control, allowing managers to adjust the system to meet community needs.
+
+Through this, the system not only helps save energy and reduce operational costs but also engages the community by providing transparency and data on the impact of the initiatives.
+
+Wokwi Link: https://wokwi.com/projects/414635178238867457
+
+## **Presentation Video:**
+https://youtu.be/aXj28I7L_TY
+
+## 💚Words of Gratitude
+I would like to express my sincere gratitude to the professors who contributed to the success of this project. Your dedication was essential to my learning and growth. I am thankful for the support, guidance, and shared efforts that were crucial in overcoming challenges and achieving our goals.
+
+
+
+
+</br>
+</br>
+</br>
+
+# 🍃GreenFound
+
 A **GreenFound** foi criada com o objetivo de incentivar a participação de cidadãos e empresas em iniciativas sustentáveis de energia renovável, promovendo a transformação de comunidades carentes e espaços públicos através de doações acessíveis. A plataforma oferece uma maneira simples e transparente para que qualquer pessoa possa contribuir para projetos que visam a instalação de sistemas de energia limpa, como painéis solares e iluminação pública eficiente, gerando um impacto positivo no meio ambiente e na qualidade de vida das pessoas. 
 
 Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas também nas comunidades mais vulneráveis, melhorando a qualidade de vida e promovendo um futuro mais sustentável. A cada doação, os usuários podem acompanhar o progresso dos projetos, visualizar os resultados gerados e acumular pontos que podem ser trocados por recompensas simbólicas.
