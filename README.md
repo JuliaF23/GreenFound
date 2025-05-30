@@ -1,4 +1,4 @@
-# 🍃GreenFund
+# 🍃GreenFound
 
 A **GreenFound** foi criada com o objetivo de incentivar a participação de cidadãos e empresas em iniciativas sustentáveis de energia renovável, promovendo a transformação de comunidades carentes e espaços públicos através de doações acessíveis. A plataforma oferece uma maneira simples e transparente para que qualquer pessoa possa contribuir para projetos que visam a instalação de sistemas de energia limpa, como painéis solares e iluminação pública eficiente, gerando um impacto positivo no meio ambiente e na qualidade de vida das pessoas. 
 
